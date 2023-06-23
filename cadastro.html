@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercearia do Seu João</title>
+    <link href="cadastro.css" rel="stylesheet">
+    <link rel="icon" href="mercearia.png">
+</head>
+<body>
+     <fieldset id="seujoao">
+        <h1>Mercearia do Seu João</h1>
+     </fieldset>
+    <div class="nome">
+        <form method="post">
+            <label>NOME:</label>
+            <input type="text" size="40" name="login" placeholder="Digite aqui" maxlength="50" required>
+        </form>
+    </div>
+    <div class="cpf">
+        <form method="post">
+            <label>CPF:</label>
+            <input type="text" size="43" name="cpf" placeholder="Digite aqui" maxlength="50" required>
+        </form>
+    </div>
+    <div class="email">
+        <form method="post">
+            <label>E-MAIL:</label>
+            <input type="email" size="39" name="e-mail" placeholder="Digite aqui" maxlength="50" required>
+        </form>
+    </div>   
+    <div class="senha">
+        <form method="post">
+            <label>SENHA:</label>
+            <input type="password" size="39" name="senha" placeholder="Digite aqui" maxlength="50" required>
+        </form>
+    </div>   
+    <br>
+    <br>
+    <div class="enviar">
+       <a href="index.html"><input type="submit" name="Confirmar" value="Confirmar"></a> 
+    </div>
+    <figure>
+        <img src="melancia.png" width="75" height="36">
+    </figure>
+    <fieldset id="cadastro">
+        <h3>Cadastro</h3>
+    </fieldset>
+    <div class="seta">
+        <a href="index.html">
+            <img src="fim.png" width="40" height="40">
+        </a>
+    </div>
+
+     <!-- Plugin VLibras --> 
+        <div vw class="enabled"> 
+            <div vw-access-button class="active"></div> 
+                <div vw-plugin-wrapper> <div class="vw-plugin-top-wrapper"></div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script> 
+        <script> 
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+         </script> <!-- Plugin VLibras -->
+</body>
+
+</html>

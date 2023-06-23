@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercearia do Seu João</title>
+    <link href="esqueceu.css" rel="stylesheet">
+    <link rel="icon" href="mercearia.png">
+</head>
+<body>
+    <fieldset id="seujoao">
+        <h1>Mercearia do Seu João</h1>
+    </fieldset>
+
+    <div id="login">
+         <input type="text" name="login" placeholder="Digite seu e-mail" size="57" required>
+    </div>
+    <div id="personrecuperar">
+        <img src="person.png" alt="person" title="loginperson" width="30" height="32.7">
+    </div>
+    <div class="confirmar">
+       <a href="index.html"><input type="submit" name="Confirmar" value="Confirmar"></a>
+    </div>
+    <figure>
+        <img src="melancia.png" width="75" height="35">
+    </figure>
+    <div class="fim">
+        <a href="index.html">
+            <img src="fim.png" width="35" height="35">
+        </a>
+    </div>
+
+    <fieldset id="sub">
+        <h3>Recuperar Senha</h3>
+    </fieldset>
+
+    <!-- Plugin VLibras --> 
+    <div vw class="enabled"> 
+        <div vw-access-button class="active"></div> 
+            <div vw-plugin-wrapper> <div class="vw-plugin-top-wrapper"></div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script> 
+    <script> 
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+     </script> <!-- Plugin VLibras -->
+</body>
+
+</html>

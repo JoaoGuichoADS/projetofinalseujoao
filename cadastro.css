@@ -1,0 +1,119 @@
+body{
+    background-image: url(plano\ de\ fundo\ \(2\).png);
+    width: 1280px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#seujoao{
+    border-width: 0px;
+    position: absolute;
+    text-align: center;
+    width: 215px;
+    height: 90px ;
+    left: 520px;
+    top: 109px;
+    background-color: #d9d9d9;
+}
+
+h1{
+    font-family: Georgia;
+    font-size: 160%;
+}
+
+.nome{
+    position: absolute;
+    text-align: center;
+    left: 450px;
+    top: 250px;
+    font-family: Georgia;
+}
+
+.cpf{
+    position: absolute;
+    text-align: center;
+    left: 450px;
+    top: 290px;
+    font-family: Georgia;
+}
+
+.email{
+    position: absolute;
+    text-align: center;
+    left: 450px;
+    top: 330px;
+    font-family: Georgia;
+}
+
+.senha{
+    position: absolute;
+    text-align: center;
+    left: 450px;
+    top: 370px;
+    font-family: Georgia;
+}
+
+.enviar{
+    position: absolute;
+    text-align: center;
+    left: 612px;
+    top: 480px;
+    font-family: Georgia;
+    font-size: 1em;
+    background: #F9B362;
+    border: 0;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding: 0.7em 0.3em;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 20px;
+}
+
+figure{
+    position: absolute;
+    text-align: center;
+    left: 560px;
+    top: 461px;
+}
+
+#cadastro{
+    border-width: 0px;
+    position: absolute;
+    text-align: center;
+    width: 115px;
+    height: 55px ;
+    left: 1030px;
+    top: 70px;
+    background-color:#F9B362;
+    padding: 0.0em 0.4em;
+    font-family: Georgia;
+}
+
+.seta{
+    border-width: 0px;
+    position: absolute;
+    text-align: center;
+    width: 130px;
+    height: 60px ;
+    left: 1030px;
+    top: 500px;
+}
+
+.fim{
+    border-width: 0px;
+    position: absolute;
+    text-align: center;
+    width: 130px;
+    height: 60px ;
+    left: 10px;
+    top: 65px;
+}

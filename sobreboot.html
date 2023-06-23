@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 - Transparent Navbar</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      .banner-image {
+        background-image: url('img/sobre.png');
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mercearia do Seu João</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner Image  -->
+    <div
+      class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="content text-center">
+        <h1 class="text-white">JOÃO PITT</h1>
+      </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="container my-5 d-grid gap-5">
+      <div class="p-5 border">
+        <p>
+          João Castro de Ferreira, mais conhecido como João Pitt, é empreendedor e dono de uma mercearia que leva o seu nome. Ele tem 42 anos, e decidiu montar o seu pequeno comercio aos 36, com o intuito de ajudar a sua família e proporcionar produtos de boa qualidade para as pessoas do seu bairro.
+
+Nosso Objetivo foi criar essa calculadora digital, e ajudar o seu João a contar mais rapidamente as compras de seus clientes.
+        </p>
+      </div>
+      <div class="p-5 border">
+        <img src="img/2.png" alt=". . .">
+        <p>
+          <br> Estamos animados em apresentar a emocionante Promoção do Milho, uma oportunidade imperdível para os amantes de alimentos saborosos e saudáveis. Prepare-se para se deliciar com o amarelo brilhante e os sabores irresistíveis do milho, que agora está disponível em ofertas especiais!
+        </p>
+      </div>
+      <div class="p-5 border">
+        <img src="img/3.png" alt=". . .">
+        <p>
+          <br> Durante essa promoção, nossas lojas estarão repletas de pacotes de canjica de alta qualidade, selecionada especialmente para proporcionar a melhor experiência aos nossos clientes. Você encontrará grãos de milho branco macio e de textura aveludada, perfeitos para serem transformados em uma canjica irresistível
+        </p>
+      </div>
+      <div class="p-5 border">
+        <img src="img/4.png" alt=". . .">
+        <p>
+          <br> Durante esta promoção, os clientes terão acesso a uma ampla variedade de tomates de qualidade superior, cultivados com cuidado e colhidos no ponto certo para oferecer o máximo de sabor. Seja para preparar saladas refrescantes, molhos irresistíveis ou pratos principais requintados, você encontrará tomates para todas as suas receitas favoritas.
+        </p>
+      </div>
+      <div class="p-5 border">
+        <p>
+          Desenvolvedores: <br>
+          Eduardo Hideki <br>
+          João Otávio de Oliveira Guicho <br>
+          Manuela Messias Roque <br>
+          Melissa Rodrigues <br>
+          Thaína Rodrigues Dias <br>
+        </p>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
+  </body>
+</html>

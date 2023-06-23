@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="cadastro.css" rel="stylesheet">
+    <link rel="icon" href="mercearia.png">
+</head>
+<body>
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Senha</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Endereço</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Endereço 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Cidade</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputEstado">Estado</label>
+            <select id="inputEstado" class="form-control">
+              <option selected>Escolher...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputCEP">CEP</label>
+            <input type="text" class="form-control" id="inputCEP">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Clique em mim
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+    </div>
+</div>   
+<br>
+<br>
+<div class="enviar">
+   <a href="index.html"><input type="submit" name="Confirmar" value="Confirmar"></a> 
+</div>
+<figure>
+    <img src="melancia.png" width="75" height="36">
+</figure>
+<fieldset id="cadastro">
+    <h3>Cadastro</h3>
+</fieldset>
+<div class="seta">
+    <a href="index.html">
+        <img src="fim.png" width="40" height="40">
+    </a>
+</div>
+
+
+    <!-- Plugin VLibras --> 
+       <div vw class="enabled"> 
+           <div vw-access-button class="active"></div> 
+               <div vw-plugin-wrapper> <div class="vw-plugin-top-wrapper"></div>
+       <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script> 
+       <script> 
+           new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script> <!-- Plugin VLibras -->
+</body>
+</html>

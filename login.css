@@ -1,0 +1,130 @@
+body{
+    width: 1200px;
+    height: 500px;
+}
+#seujoao {
+    border-width: 0px;
+    position: absolute;
+    text-align: center;
+    width: 215px;
+    height: 90px;
+    left: 515px;
+    top: 109px; 
+    background-color: #d9d9d9;
+}
+
+#loginperson {
+    position: absolute;
+    width: 20px;
+    height: 22.7px;
+    left: 375px;
+    top: 309px;
+}
+
+#lockpass {
+    position: absolute; 
+    width: 36px;
+    height: 42px;
+    left: 380px;
+    top: 380px;
+}
+
+h1 {
+    font-size: 160%;
+    font-family: Georgia;
+}
+
+#password {
+    position: absolute;
+    left: 430px;
+    top: 385px;
+}
+
+#login {
+    position: absolute;
+    left: 430px;
+    top: 315px;
+}
+
+#sub{
+    border-width: 0px;
+    position: absolute;
+    text-align: center;
+    width: 110px;
+    height: 55px ;
+    left: 1032px;
+    top: 75px;
+    background-color:#F9B362;
+    padding: 0.0em 0.3em;
+    font-family: Georgia;
+}
+
+body{
+    background-image: url(plano\ de\ fundo\ \(2\).png);
+    width: 1280px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.enviar{
+    position: absolute;
+    text-align: center;
+    left: 612px;
+    top: 480px;
+    font-family: Georgia;
+    font-size: 1em;
+    background: #F9B362;
+    border: 0;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding: 0.7em 0.3em;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 20px;
+}
+
+figure{
+    position: absolute;
+    text-align: center;
+    left: 557px;
+    top: 460px;
+}
+
+.sobre{
+    border-width: 0px;
+    position: absolute;
+    text-align: center;
+    width: 130px;
+    height: 60px ;
+    left: 1040px;
+    top: 460px;
+}
+
+.cadastro{
+    border-width: 0px;
+    position: absolute;
+    text-align: center;
+    width: 130px;
+    height: 60px ;
+    left: 1040px;
+    top: 500px;
+}
+
+.recuperar{
+    border-width: 0px;
+    position: absolute;
+    text-align: center;
+    width: 130px;
+    height: 60px ;
+    left: 1040px;
+    top: 540px;
+}
+

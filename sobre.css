@@ -1,0 +1,51 @@
+body{
+    background-color:#f8ae5a;
+}
+
+h2{
+    color: aliceblue;
+    font-family: Georgia;
+    text-align: center;
+}
+
+p{
+    color: aliceblue;
+    font-family: Georgia;
+    text-align: center;
+}
+
+h5{
+    color: aliceblue;
+    font-family: Georgia;
+    text-align: center;
+}
+
+h3{
+    color: aliceblue;
+    font-family: Georgia;
+    text-align: left;
+}
+
+.desen{
+    color: aliceblue;
+    font-family: Georgia;
+    text-align: left;
+}
+
+figure{
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.fimmmm{
+    border-width: 0px;
+    position: absolute;
+    text-align: center;
+    width: 130px;
+    height: 60px ;
+    left: 10px;
+    top: 10px;
+}
