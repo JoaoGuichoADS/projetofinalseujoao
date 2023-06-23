@@ -48,9 +48,6 @@
         <div class="calcular">
             <input type="submit" name="Calcular" value="Calcular">
         </div>
-        <figure>
-            <img src="melancia.png" width="75" height="35">
-        </figure>
         </form>
         <div class="fim">
             <a href="logout.php">
